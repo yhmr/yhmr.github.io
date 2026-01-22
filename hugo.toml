@@ -1,4 +1,4 @@
-baseURL = 'https://YOUR_USER_NAME.github.io/' # デプロイ時に変更してください
+baseURL = 'https://yhmr.github.io/' # デプロイ時に変更してください
 languageCode = 'ja'
 title = 'My Portfolio'
 theme = "PaperMod"
@@ -57,16 +57,16 @@ buildExpired = false
         { name = "About", url = "about" },
         { name = "Projects", url = "projects" },
         { name = "Blog", url = "posts" },
-        { name = "GitHub", url = "https://github.com/YOUR_USER_NAME" }
+        { name = "GitHub", url = "https://github.com/yhmr" }
     ]
 
   # Social Icons
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/YOUR_USER_NAME"
+    url = "https://github.com/yhmr"
   [[params.socialIcons]]
     name = "twitter"
-    url = "https://twitter.com/YOUR_USER_NAME"
+    url = "https://twitter.com/yhmr"
 
 [menu]
   [[menu.main]]
