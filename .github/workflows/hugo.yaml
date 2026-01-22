@@ -33,8 +33,7 @@ jobs:
     env:
       HUGO_VERSION: 0.154.5
       HUGO_ENV: "production"
-      HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-      HUGO_HTMLCOV: ${{ runner.temp }}/hugo_cache/htmlcov
+
     steps:
       - name: Install Hugo CLI
         run: |
