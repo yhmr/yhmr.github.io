@@ -1,0 +1,86 @@
+baseURL = 'https://YOUR_USER_NAME.github.io/' # デプロイ時に変更してください
+languageCode = 'ja'
+title = 'My Portfolio'
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "My Portfolio"
+  description = "Example description"
+  keywords = ["Blog", "Portfolio", "PaperMod"]
+  author = "Me"
+  # images = ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat = "2006年1月2日"
+  defaultTheme = "auto" # dark, light
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  # Assets settings
+  [params.assets]
+    disableHLJS = false # highlight.jsを無効化するか
+    # favicon = "<link / abs url>"
+
+  # Profile Mode Settings
+  [params.profileMode]
+    enabled = true
+    title = "My Name"
+    subtitle = "Software Engineer based in Tokyo"
+    imageUrl = "https://github.com/github.png" # 仮の画像
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "My Profile"
+    buttons = [
+        { name = "About", url = "about" },
+        { name = "Projects", url = "projects" },
+        { name = "Blog", url = "posts" },
+        { name = "GitHub", url = "https://github.com/YOUR_USER_NAME" }
+    ]
+
+  # Social Icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/YOUR_USER_NAME"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/YOUR_USER_NAME"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts/"
+    weight = 30
