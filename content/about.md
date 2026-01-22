@@ -6,28 +6,25 @@ hidemeta: true
 ---
 
 ## 自己紹介
-都内でソフトウェアエンジニアをしています。
-落ち着いたデザインが好きです。
-これから技術記事や制作物を発信していく予定です。
+都内でソフトウェアエンジニアをしています  
+すごい優秀だったりユニークな技術を持ってたりはしないですが、勉強は好きです  
 
 ## スキルセット
 ### Languages
-*   TypeScript
-*   Go
-*   Python
+* C#
+* TypeScript
+* Python
 
 ### Frameworks & Libraries
-*   React / Next.js
-*   Hugo
-*   TailwindCSS
+* React / Electron
+* .NET / WPF
 
 ### Tools
-*   Git / GitHub
-*   Docker
-*   VS Code
+* Git / GitHub
+* VS Code
+* Antigravity
+* Docker
 
 ## 経歴
-*   **2024 - Present**: 株式会社〇〇
-    *   Webアプリケーションの開発・運用
-*   **2020 - 2024**: 株式会社△△
-    *   受託開発における詳細設計・実装
+* **2023 - Present**: 都内の少し大きい会社
+* **2014 - 2023**: 都内の小さい会社

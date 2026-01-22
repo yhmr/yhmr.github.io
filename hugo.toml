@@ -1,6 +1,6 @@
 baseURL = 'https://yhmr.github.io/' # デプロイ時に変更してください
 languageCode = 'ja'
-title = 'My Portfolio'
+title = 'yhmr'
 theme = "PaperMod"
 
 enableRobotsTXT = true
@@ -14,7 +14,7 @@ buildExpired = false
 
 [params]
   env = "production"
-  title = "My Portfolio"
+  title = "yhmr"
   description = "Example description"
   keywords = ["Blog", "Portfolio", "PaperMod"]
   author = "Me"
@@ -47,17 +47,15 @@ buildExpired = false
   # Profile Mode Settings
   [params.profileMode]
     enabled = true
-    title = "My Name"
+    title = "yhmr"
     subtitle = "Software Engineer based in Tokyo"
-    imageUrl = "https://github.com/github.png" # 仮の画像
+    imageUrl = "https://www.gravatar.com/avatar/affe4c3c7e1f93d05085421a6a42ed75?s=200" # Gravatar
     imageWidth = 120
     imageHeight = 120
     imageTitle = "My Profile"
     buttons = [
         { name = "About", url = "about" },
         { name = "Projects", url = "projects" },
-        { name = "Blog", url = "posts" },
-        { name = "GitHub", url = "https://github.com/yhmr" }
     ]
 
   # Social Icons
@@ -66,7 +64,7 @@ buildExpired = false
     url = "https://github.com/yhmr"
   [[params.socialIcons]]
     name = "twitter"
-    url = "https://twitter.com/yhmr"
+    url = "https://twitter.com/ksknmnksk"
 
 [menu]
   [[menu.main]]
@@ -79,8 +77,3 @@ buildExpired = false
     name = "Projects"
     url = "/projects/"
     weight = 20
-  [[menu.main]]
-    identifier = "posts"
-    name = "Blog"
-    url = "/posts/"
-    weight = 30
