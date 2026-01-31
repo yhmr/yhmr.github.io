@@ -68,6 +68,9 @@ buildExpired = false
   [[params.socialIcons]]
     name = "zenn"
     url = "https://zenn.dev/yhmr"
+  [[params.socialIcons]]
+    name = "note"
+    url = "https://note.com/yhmr"
 
 [menu]
   [[menu.main]]
