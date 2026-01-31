@@ -65,6 +65,9 @@ buildExpired = false
   [[params.socialIcons]]
     name = "twitter"
     url = "https://twitter.com/ksknmnksk"
+  [[params.socialIcons]]
+    name = "zenn"
+    url = "https://zenn.dev/yhmr"
 
 [menu]
   [[menu.main]]
