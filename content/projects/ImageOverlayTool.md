@@ -7,6 +7,9 @@ summary: "画像オーバーレイツール (TypeScript)"
 weight: 2
 ---
 
+## Store
+[Microsoft Store](https://apps.microsoft.com/store/detail/9PBQ7VPKTXQ1?cid=DevShareMCLPCS)
+
 ## repo
 [yhmr/ImageOverlayTool](https://github.com/yhmr/ImageOverlayTool)
 
